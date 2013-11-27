@@ -1,0 +1,5 @@
+geek_hub_homework7:
+    resource: "@GeekHubHomework7Bundle/Controller/"
+    type:     annotation
+    prefix:   /
+
