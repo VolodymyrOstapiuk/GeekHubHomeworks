@@ -3,8 +3,6 @@
 namespace GeekHub\Homework7Bundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
@@ -39,7 +37,7 @@ class DefaultController extends Controller
         return new Response("All visit of <b>{$visitEngine->getRequestedSite()}</b>  : {$count}");
     }
 
-    public function mainPageAction()
+    public function mainPageSiteAction()
     {
         $sites = $this->getDoctrine()->getRepository("GeekHubHomework7Bundle:Site")->findAll();
 

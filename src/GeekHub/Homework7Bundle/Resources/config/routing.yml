@@ -3,4 +3,4 @@ site:
   defaults: { _controller: GeekHubHomework7Bundle:Default:visit }
 index:
   pattern:  /site
-  defaults: { _controller: GeekHubHomework7Bundle:Default:mainPage }
+  defaults: { _controller: GeekHubHomework7Bundle:Default:mainPageSite }
