@@ -15,7 +15,7 @@ class Statistics
 
     public function simpleStatistic()
     {
-        $visits = $this->visit->getAllVisits();
+        $visits = $this->visit->getAllVisitsOfRequestedSite();
         $count = 0;
         foreach ($visits as $visit) {
             $count++;

@@ -1,1 +1,4 @@
-Hello {{ name }}!
+{% for site in sites %}
+    <li><a href="http://symfony.geekhub/site/{{ site.name }}">{{ site.name }}</a></li>
+{% endfor %}
+

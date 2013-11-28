@@ -14,6 +14,7 @@ class VisitEngine
     private $siteEntity;
     private $visit;
     private $allVisits;
+    private $allVisitsOfRequestedSite;
 
     public function __construct()
     {
@@ -66,6 +67,16 @@ class VisitEngine
     public function getAllVisits()
     {
         return $this->allVisits;
+    }
+
+    public function setAllVisitsOfRequestedSite($visits)
+    {
+        $this->allVisitsOfRequestedSite = $visits;
+    }
+
+    public function getAllVisitsOfRequestedSite()
+    {
+        return $this->allVisitsOfRequestedSite;
     }
 
 }

@@ -1,0 +1,6 @@
+site:
+  pattern:  /site/{name}
+  defaults: { _controller: GeekHubHomework7Bundle:Default:visit }
+index:
+  pattern:  /site
+  defaults: { _controller: GeekHubHomework7Bundle:Default:mainPage }
