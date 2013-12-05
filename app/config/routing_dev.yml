@@ -18,3 +18,5 @@ _acme_demo:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
 _homework7:
     resource: "@GeekHubHomework7Bundle/Resources/config/routing.yml"
+_geek_hub_guest_book:
+    resource: "@GeekHubGuestBookBundle/Resources/config/routing.yml"

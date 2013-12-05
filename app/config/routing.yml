@@ -1,0 +1,5 @@
+geek_hub_guest_book:
+    resource: "@GeekHubGuestBookBundle/Resources/config/routing.yml"
+    type:     yaml
+    prefix:   /
+
