@@ -19,8 +19,9 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new GeekHub\Homework7Bundle\GeekHubHomework7Bundle(),
             new GeekHub\GuestBookBundle\GeekHubGuestBookBundle(),
-            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
-
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle()
+        ,
+            new GeekHub\EventDispetcherSampleBundle\GeekHubEventDispetcherSampleBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

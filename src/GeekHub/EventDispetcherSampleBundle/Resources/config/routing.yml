@@ -1,0 +1,3 @@
+dispatcher:
+  pattern: /dispatcher
+  defaults: {_controller: GeekHubEventDispetcherSampleBundle:Default:index}

@@ -1,3 +1,8 @@
+geek_hub_event_dispetcher_sample:
+    resource: "@GeekHubEventDispetcherSampleBundle/Resources/config/routing.yml"
+    type:     yaml
+    prefix:   /
+
 geek_hub_guest_book:
     resource: "@GeekHubGuestBookBundle/Resources/config/routing.yml"
     type:     yaml
